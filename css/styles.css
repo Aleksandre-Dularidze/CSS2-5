@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	height: 72px;
+	background-color: rgb(164, 74, 74);
+	padding: 12px 32px;
+}
+
+.headerMain {
+	max-width: 1856px;
+	width: 100%;
+	height: 48px;
+	background-color: rgb(80, 155, 114);
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.headerLogo {
+	max-width: 174px;
+	width: 100%;
+	height: 48px;
+	background-color: rgb(34, 179, 176);
+	padding: 13px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.headerLogo img {
+	width: 147px;
+	height: 21px;
+}
+
+.linkBox {
+	max-width: 1577px;
+	width: 100%;
+	height: 22px;
+	display: inline-block;
+	background-color: rgb(195, 68, 68);
+	vertical-align: middle;
+}
+
+.linkBox a {
+	font-size: 18px;
+	color: #323232;
+}
