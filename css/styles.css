@@ -11,24 +11,22 @@ a {
 header {
 	width: 100%;
 	height: 72px;
-	background-color: rgb(164, 74, 74);
 	padding: 12px 32px;
+	margin: 0 auto;
+	background-color: #FBF9FF;
 }
 
 .headerMain {
 	max-width: 1856px;
 	width: 100%;
 	height: 48px;
-	background-color: rgb(80, 155, 114);
 	margin: 0 auto;
-	display: inline-block;
 }
 
 .headerLogo {
 	max-width: 174px;
 	width: 100%;
 	height: 48px;
-	background-color: rgb(34, 179, 176);
 	padding: 13px;
 	display: inline-block;
 	vertical-align: middle;
@@ -40,15 +38,459 @@ header {
 }
 
 .linkBox {
-	max-width: 1577px;
-	width: 100%;
+	width: 1500px;
 	height: 22px;
 	display: inline-block;
-	background-color: rgb(195, 68, 68);
 	vertical-align: middle;
 }
 
 .linkBox a {
 	font-size: 18px;
 	color: #323232;
+	padding-right: 20px;
+}
+
+.linkFix {
+	width: 246px;
+	height: 22px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.buttonBox {
+	width: 105px;
+	background-color: #6941C6;
+	padding: 8px 16px;
+	border-radius: 8px;
+	border: 1px solid #6941C6;
+	display: inline-block;
+	text-align: center;
+}
+
+.buttonBox>a {
+	color: white;
+	font-size: 14px;
+}
+
+.fillerIn {
+	width: 100%;
+	height: 131px;
+}
+
+.fillerBox {
+	width: 100%;
+	height: 203px;
+}
+
+.mainDiv {
+	max-width: 1440px;
+	width: 100%;
+	height: 3083px;
+	padding: 96px;
+	margin: 0 auto;
+	background-color: #F1E8FF;
+}
+
+.mainTop {
+	max-width: 1248px;
+	width: 100%;
+	height: 753px;
+	background-color: #F1E8FF;
+	padding: 0px 32px;
+}
+
+.mainPlans {
+	margin: 0 auto;
+	max-width: 768px;
+	width: 100%;
+	height: 132px;
+	margin-bottom: 32px;
+}
+
+.mainHeading {
+	max-width: 660px;
+	width: 100%;
+	height: 64px;
+	font-size: 40px;
+	color: #181D27;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mainHeading p {
+	font-size: 24px;
+	line-height: 32px;
+	color: #535862;
+}
+
+.mainContainer {
+	max-width: 1184px;
+	width: 100%;
+	height: 589px;
+}
+
+.conteinerOne {
+	max-width: 370px;
+	width: 100%;
+	display: inline-block;
+	margin-right: 32px;
+	background-color: #FFF;
+	border-radius: 24px;
+}
+
+#stopMargin {
+	margin: 0;
+}
+
+.upSide {
+	max-width: 373px;
+	width: 100%;
+	height: 332px;
+	padding: 32px;
+}
+
+.downSide {
+	max-width: 373px;
+	width: 100%;
+	height: 257px;
+	padding: 32px;
+}
+
+.insideUp {
+	max-width: 309px;
+	width: 100%;
+	height: 136px;
+}
+
+.insideDown {
+	max-width: 309px;
+	width: 100%;
+	height: 108px;
+	margin-top: 16px;
+}
+
+.downDown {
+	max-width: 309px;
+	width: 100%;
+	height: 184px;
+}
+
+.basicLink {
+	width: 125px;
+	border: 1px solid #E9D7FE;
+	background-color: #F9F5FF;
+	border-radius: 99px;
+	text-align: center;
+	padding: 4px 12px;
+	margin: 0 auto;
+}
+
+.basicSize {
+	width: 93px;
+}
+
+.planSize {
+	width: 117px;
+}
+
+.basicLink a {
+	color: #6941C6;
+	font-size: 14px;
+}
+
+.payBox {
+	width: 309px;
+	text-align: center;
+	margin-top: 16px;
+}
+
+.payBox span {
+	color: #181D27;
+	font-size: 48px;
+}
+
+.planBox {
+	width: 309px;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 8px;
+}
+
+.planBox p {
+	color: #535862;
+	font-size: 16px;
+}
+
+.startBox {
+	width: 309px;
+	background-color: #7F56D9;
+	padding: 12px 18px;
+	border: 2px solid #7F56D9;
+	border-radius: 8px;
+	text-align: center;
+	margin-bottom: 12px;
+	height: 48px;
+}
+
+.startBox a {
+	font-size: 16px;
+	line-height: 24px;
+	color: white;
+}
+
+.chatBox {
+	width: 309px;
+	padding: 12px 18px;
+	text-align: center;
+	height: 48px;
+	border: 1px solid #414651;
+	border-radius: 8px;
+}
+
+.chatBox a {
+	color: #414651;
+	line-height: 24px;
+	font-size: 16px;
+}
+
+.fillerConteiner {
+	border-top: 1px solid #E9EAEB;
+	width: 309px;
+	margin: 0 auto;
+}
+
+.checkBox {
+	padding-bottom: 16px;
+}
+
+.checkBox,
+img,
+span {
+	vertical-align: middle;
+}
+
+.checkBox span {
+	line-height: 24px;
+	font-size: 16px;
+	color: #535862;
+}
+
+.checkBox img {
+	margin-right: 12px;
+}
+
+.midFill {
+	width: 100%;
+	height: 64px;
+}
+
+.midMain {
+	max-width: 1248px;
+	width: 100%;
+	height: 1252px;
+	padding: 32px 0px;
+	background-color: #FFFFFF;
+	border-radius: 24px;
+}
+
+.midMain span {
+	color: #181D27;
+	font-size: 40px;
+	line-height: 44px;
+	font-weight: 800;
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.midMain p {
+	color: #535862;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.midMid {
+	width: 768px;
+	height: 168px;
+	background-color: #E4E4E4;
+	margin: 0 auto;
+	margin-bottom: 16px;
+	padding: 32px;
+	border-radius: 16px;
+}
+
+.midMid span {
+	color: #181D27;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	display: inline;
+	vertical-align: middle;
+}
+
+.midMid img {
+	margin-right: 24px;
+	vertical-align: middle;
+}
+
+.midMid p {
+	text-align: left;
+	width: 656px;
+	margin: 0;
+	height: 72px;
+	margin: 8px 0px 0px 50px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.canChange {
+	background-color: #FFE5E5;
+	border: 2px solid #FF2323;
+	border-radius: 16px;
+	height: 144px;
+}
+
+.backPink {
+	background-color: #E9D7FF;
+	height: 168px
+}
+
+.otherChange {
+	background-color: #F7F4FF;
+	height: 168px
+}
+
+.howChange {
+	background-color: #DCE6FF;
+	height: 168px;
+	border: 4px solid #326DFF;
+}
+
+.lastChange {
+	background-color: #FFD5E7;
+}
+
+.bottomBox {
+	width: 1248px;
+	height: 758px;
+	padding: 32px;
+	background-color: #FFF;
+	border-radius: 24px;
+}
+
+.textBox {
+	width: 1184px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.textBox p {
+	font-size: 40px;
+	color: #181D27;
+	line-height: 44px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.textBox span {
+	font-size: 24px;
+	color: #535862;
+	line-height: 30px;
+	font-weight: 400;
+}
+
+.bottomFour {
+	width: 1184px;
+	height: 536px;
+	margin-top: 64px;
+}
+
+.bottomContent {
+	width: 580px;
+	height: 256px;
+	padding: 32px;
+	border-radius: 12px;
+	border: 1px solid #E9EAEB;
+	display: inline-block;
+}
+
+.bottomContent p {
+	font-size: 20px;
+	color: #181D27;
+	line-height: 30px;
+	font-weight: 700;
+	height: 50px;
+}
+
+.bottomBottom {
+	width: 516px;
+	height: 52px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.bottomBottom img {
+	vertical-align: middle;
+	margin-right: 12px;
+}
+
+.profSec {
+	width: 310px;
+	height: 52px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.profSec h3 {
+	display: inline-block;
+	vertical-align: top;
+	color: #181D27;
+	font-weight: 600;
+	line-height: 28px;
+	font-size: 18px;
+	vertical-align: 2px;
+}
+
+.profSec p {
+	color: #535862;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.profSec img {
+	vertical-align: 1px;
+	width: 16px;
+	height: 16px;
+}
+
+.hewBox {
+	width: 149px;
+	height: 28px;
+}
+
+.imgVertical {
+	display: inline-block;
+	width: 134px;
+	text-align: right;
+}
+
+.imgVertical img {
+	margin: 0 auto;
+	vertical-align: 1px;
+}
+
+.needMargin {
+	margin-bottom: 24px;
+}
+
+.leftMargin {
+	margin-left: 18px;
+}
+
+.fixP {
+	width: 400PX;
 }
