@@ -38,7 +38,8 @@ header {
 }
 
 .linkBox {
-	width: 1500px;
+	max-width: 1400px;
+	width: 100%;
 	height: 22px;
 	display: inline-block;
 	vertical-align: middle;
@@ -58,13 +59,11 @@ header {
 }
 
 .buttonBox {
-	width: 105px;
 	background-color: #6941C6;
 	padding: 8px 16px;
 	border-radius: 8px;
 	border: 1px solid #6941C6;
 	display: inline-block;
-	text-align: center;
 }
 
 .buttonBox>a {
